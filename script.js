@@ -48,7 +48,7 @@ function desencriptar(stringDesencriptado) {
     }
     return stringDesencriptado
 }
-
+/*Función para copiar el texto en el recuadro*/
 $btn.addEventListener('click', e =>{
     $content.select();
     document.execCommand('copy');
