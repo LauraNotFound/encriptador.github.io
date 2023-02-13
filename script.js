@@ -36,6 +36,7 @@ function btnDesencriptar() {
 }
 
 function desencriptar(stringDesencriptado) {
+    /*let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];*/
     let matrizCodigo = [["e", "-1010-"], ["i", "-011-"], ["a", "-10-"], ["o", "-0-"], ["u", "-0011-"], ["k", "-01-"], ["y", "-000-"], ["d", "-001-"], ["h", "-111-"], ["m", "-100-"], ["w", "-110-"], ["x", "-101-"], ["t", "-010-"], ["j", "-0000-"], ["r", "-0001-"], ["v", "-0111-"], ["s", "-1111-"], ["q", "-1000-"], ["ñ", "-1100-"], ["n", "-1110-"], ["c", "-1001-"], ["g", "-0101-"], ["b", "-0110-"], ["f", "-0100-"], ["p", "-00-"], ["z", "-11-"], ["l", "-1-"]];
     
     stringDesencriptado = stringDesencriptado.toLowerCase()
